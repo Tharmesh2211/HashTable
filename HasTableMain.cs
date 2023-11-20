@@ -32,7 +32,7 @@ namespace HasTables
             hashtable.Add("UserName", "Tharmesh");
             hashtable.Add("Password", "Tharmesh@123");
             hashtable.Add("PhoneNumber", 9087654321);
-            hashtable.Add("DOB", new DateTime(2002,11,22));
+            hashtable.Add("DOB", new DateTime(2002,11,22).ToString("dd-MM-yyyy"));
             return hashtable;
         }
 
